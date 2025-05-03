@@ -23,9 +23,8 @@ Projeto de Extensão Universitária em Engenharia de Software para auxiliar pequ
     python -m venv venv
     source venv/bin/activate  # Linux/Mac
     venv\Scripts\activate     # Windows
-I   nstale as dependências:
 
-## 3: Configure o ambiente virtual
+## 3: Instale as dependências
     pip install -r requirements.txt
 
 ## 4: Inicie o aplicativo

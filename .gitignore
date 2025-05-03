@@ -4,3 +4,4 @@ __pycache__/
 *.xlsx
 venv/
 data/
+inventory_system.egg-info/

@@ -1,9 +1,9 @@
 from datetime import datetime, timedelta
-from .database_handler import DatabaseHandler
+from src.database_handler import DatabaseHandler
 
 class InventoryManager:
-    def __init__(self, db_path="data/inventory.db"):
-        self.db = DatabaseHandler(db_path)  # Usa o DatabaseHandler
+    def __init__(self, db_handler):
+        self.db = db_handler  # Agora usa o DatabaseHandler diretamente
 
     # ---- Operações Básicas ----
     def add_product(self, product_name, quantity, expiry_date=None, price=0.0):
